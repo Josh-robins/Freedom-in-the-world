@@ -1,0 +1,23 @@
+# Freedom in the World — project dependencies
+# Install into the project virtual environment:
+#   python -m venv .venv
+#   .venv\Scripts\pip install -r requirements.txt   (Windows)
+#   source .venv/bin/pip install -r requirements.txt (macOS/Linux)
+
+# Data analysis
+pandas>=2.2
+numpy>=1.26
+
+# Visualization (Plotly is the primary, interactive library)
+plotly>=5.24
+
+# Notebook-specific exploratory visualization (allowed, not preferred)
+matplotlib>=3.9
+seaborn>=0.13
+
+# Dashboard
+streamlit>=1.40
+kaleido>=1.0  # programmatic PNG export (Download Map button)
+
+# Jupyter notebooks
+jupyter>=1.1

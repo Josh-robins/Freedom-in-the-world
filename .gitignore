@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+.pytest_cache/
+
+# Virtual environment
+.venv/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Bwat agent workspace files (agent state, not project code)
+.bwat/
+
+# Project-internal instruction/spec files (not for the public repo)
+BWAT.md
+description.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

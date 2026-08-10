@@ -1,0 +1,41 @@
+INDICATOR,INDICATOR_LABEL,Category,UNIT_MEASURE,UNIT_MEASURE_LABEL
+FH_FIW_F3,Rule of Law: Is there protection from the illegitimate use of physical force and freedom from war and insurgencies?,Rule of Law,0_TO_4,0-4 scale
+FH_FIW_F4,"Rule of Law: Do laws, policies, and practices guarantee equal treatment of various segments of the population?",Rule of Law,0_TO_4,0-4 scale
+FH_FIW_G2,Personal Autonomy And Individual Rights: Are individuals able to exercise the right to own property and establish private businesses without undue interference from state or nonstate actors?,Personal Autonomy And Individual Rights,0_TO_4,0-4 scale
+FH_FIW_G3,"Personal Autonomy And Individual Rights: Do individuals enjoy personal social freedoms, including choice of marriage partner and size of family, protection from domestic violence, and control over appearance?",Personal Autonomy And Individual Rights,0_TO_4,0-4 scale
+FH_FIW_G4,Personal Autonomy And Individual Rights: Do individuals enjoy equality of opportunity and freedom from economic exploitation?,Personal Autonomy And Individual Rights,0_TO_4,0-4 scale
+FH_FIW_CL,Freedom in the World: Civil liberties scores,Freedom in the World,0_TO_60,0-60 scale
+FH_FIW_D2,Freedom of Expression and Belief: Are individuals free to practice and express their religious faith or nonbelief in public and private?,Freedom of Expression and Belief,0_TO_4,0-4 scale
+FH_FIW_D3,"Freedom of Expression and Belief: Is there academic freedom, and is the educational system free from extensive political indoctrination?",Freedom of Expression and Belief,0_TO_4,0-4 scale
+FH_FIW_D,Civil liberties: Freedom of Expression and Belief,Civil liberties,0_TO_16,0-16 scale
+FH_FIW_E1,Associational and Organizational Rights: Is there freedom of assembly?,Associational and Organizational Rights,0_TO_4,0-4 scale
+FH_FIW_E2,"Associational and Organizational Rights: Is there freedom for nongovernmental organizations, particularly those that are engaged in human rights– and governancerelated work?",Associational and Organizational Rights,0_TO_4,0-4 scale
+FH_FIW_F1,Rule of Law: Is there an independent judiciary?,Rule of Law,0_TO_4,0-4 scale
+FH_FIW_B4,"Political Pluralism and Participation: Do various segments of the population (including ethnic, racial, religious, gender, LGBT+, and other relevant groups) have full political rights and electoral opportunities?",Political Pluralism and Participation,0_TO_4,0-4 scale
+FH_FIW_G,Civil liberties: Personal Autonomy and Individual Rights,Civil liberties,0_TO_16,0-16 scale
+FH_FIW_TOTAL,Freedom in the World: Overall scores,Freedom in the World,0_TO_100,0-100 scale
+FH_FIW_E3,Associational and Organizational Rights: Is there freedom for trade unions and similar professional or labor organizations?,Associational and Organizational Rights,0_TO_4,0-4 scale
+FH_FIW_F2,Rule of Law: Does due process prevail in civil and criminal matters?,Rule of Law,0_TO_4,0-4 scale
+FH_FIW_D4,Freedom of Expression and Belief: Are individuals free to express their personal views on political or other sensitive topics without fear of surveillance or retribution?,Freedom of Expression and Belief,0_TO_4,0-4 scale
+FH_FIW_F,Civil liberties: Rule of Law,Civil liberties,0_TO_16,0-16 scale
+FH_FIW_E,Civil liberties: Associational and Organizational Rights,Civil liberties,0_TO_12,0-12 scale
+FH_FIW_G1,"Personal Autonomy And Individual Rights: Do individuals enjoy freedom of movement, including the ability to change their place of residence, employment, or education?",Personal Autonomy And Individual Rights,0_TO_4,0-4 scale
+FH_FIW_B,Political rights: Political Pluralism and Participation,Political rights,0_TO_16,0-16 scale
+FH_FIW_C2,Functioning of Government: Are safeguards against official corruption strong and effective?,Functioning of Government,0_TO_4,0-4 scale
+FH_FIW_C3,Functioning of Government: Does the government operate with openness and transparency?,Functioning of Government,0_TO_4,0-4 scale
+FH_FIW_ADD_Q,"Political rights, additional Question Q: Is the government or occupying power deliberately changing the ethnic composition of a country or territory so as to destroy a culture or tip the political balance in favor of another group?","Political rights, additional Question Q",0_TO_4,0-4 scale
+FH_FIW_ADD_A,"Political rights, additional Question A: For traditional monarchies that have no parties or electoral process, does the system provide for genuine, meaningful consultation with the people, encourage public discussion of policy choices, and allow the right to petition the ruler?","Political rights, additional Question A",0_TO_4,0-4 scale
+FH_FIW_PR,Freedom in the World: Political rights scores,Freedom in the World,0_TO_40,0-40 scale
+FH_FIW_D1,Freedom of Expression and Belief: Are there free and independent media?,Freedom of Expression and Belief,0_TO_4,0-4 scale
+FH_FIW_A1,Electoral Process: Was the current head of government or other chief national authority elected through free and fair elections?,Electoral Process,0_TO_4,0-4 scale
+FH_FIW_A2,Electoral Process: Were the current national legislative representatives elected through free and fair elections?,Electoral Process,0_TO_4,0-4 scale
+FH_FIW_A,Political rights: Electoral Process,Political rights,0_TO_12,0-12 scale
+FH_FIW_B1,"Political Pluralism and Participation: Do the people have the right to organize in different political parties or other competitive political groupings of their choice, and is the system free of undue obstacles to the rise and fall of these competing parties or groupings?",Political Pluralism and Participation,0_TO_4,0-4 scale
+FH_FIW_B2,Political Pluralism and Participation: Is there a realistic opportunity for the opposition to increase its support or gain power through elections?,Political Pluralism and Participation,0_TO_4,0-4 scale
+FH_FIW_C,Political rights: Functioning of Government,Political rights,0_TO_12,0-12 scale
+FH_FIW_STATUS,Freedom in the World: Status,Freedom in the World,CAT,Categorical
+FH_FIW_PR_RATING,Freedom in the World: Political rights rating,Freedom in the World,1_TO_7,1-7 scale
+FH_FIW_A3,"Electoral Process: Are the electoral laws and framework fair, and are they implemented impartially by the relevant election management bodies?",Electoral Process,0_TO_4,0-4 scale
+FH_FIW_B3,"Political Pluralism and Participation: Are the people’s political choices free from domination by forces that are external to the political sphere, or by political forces that employ extrapolitical means?",Political Pluralism and Participation,0_TO_4,0-4 scale
+FH_FIW_C1,Functioning of Government: Do the freely elected head of government and national legislative representatives determine the policies of the government?,Functioning of Government,0_TO_4,0-4 scale
+FH_FIW_CL_RATING,Freedom in the World: Civil liberties rating,Freedom in the World,1_TO_7,1-7 scale
