@@ -5,6 +5,19 @@ The dashboard consumes ONLY the processed long dataset
 (data/processed/freedom_in_world_long.csv) and the reusable src/ helpers.
 """
 
+import sys
+from pathlib import Path
+
+# Deployment bootstrap: make the repo root and the dashboard folder importable
+# regardless of the working directory. Locally the working directory covers
+# `src`; on Streamlit Cloud only the main script's directory is guaranteed on
+# sys.path, so the pages' `from src...` imports need this explicit insert.
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+DASHBOARD_ROOT = Path(__file__).resolve().parent
+for _path in (str(PROJECT_ROOT), str(DASHBOARD_ROOT)):
+    if _path not in sys.path:
+        sys.path.insert(0, _path)
+
 import pandas as pd
 import streamlit as st
 
