@@ -12,6 +12,7 @@ codes. Indicator pickers use the survey question text or plain names.
 
 import pandas as pd
 import streamlit as st
+from pathlib import Path
 
 from src.data_loader import load_processed_data
 
@@ -453,8 +454,24 @@ def section_header(text):
     st.markdown(f"### {text}")
 
 
+ASSETS_DIR = Path(__file__).resolve().parent.parent / "assets"
+
+
+def inject_branding():
+    """Streamlit logo on every page: full mark + wordmark when the sidebar
+    is expanded, mark-only when collapsed. Paths are script-relative because
+    st.logo resolves relative paths against the working directory."""
+    st.logo(
+        str(ASSETS_DIR / "streamlit-logo.png"),
+        icon_image=str(ASSETS_DIR / "streamlit-mark.png"),
+        size="large",
+    )
+
+
 def inject_style():
-    """Consistent dark-theme CSS: black page, white text, amber accents."""
+    """Consistent dark-theme CSS: black page, white text, amber accents.
+    Also applies the sidebar branding (called by every page)."""
+    inject_branding()
     st.markdown(
         f"""
         <style>
