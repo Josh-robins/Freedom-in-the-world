@@ -90,6 +90,10 @@ The notebooks are the documented analysis: profiling (01), metadata & data dicti
 
 ### Dashboard
 
+**Live deployment:** [freedom-in-the-world-amptry3xxjlugnaigpajqu.streamlit.app](https://freedom-in-the-world-amptry3xxjlugnaigpajqu.streamlit.app/) — hosted on Streamlit Community Cloud, deployed automatically from the `main` branch of this repository.
+
+Run it locally with:
+
 ```bash
 streamlit run dashboard/app.py
 ```
