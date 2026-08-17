@@ -32,6 +32,15 @@ from components.charts import (
 from src.visualizations import create_trend_chart, create_multi_trend_chart
 
 st.set_page_config(page_title="Freedom in the World - Dashboard", layout="wide")
+# Sidebar branding: the full Streamlit logo (mark + wordmark) when the
+# sidebar is expanded; just the mark when it is collapsed. Paths are built
+# from the script location because st.logo resolves relative paths against
+# the working directory, which differs locally vs Streamlit Cloud.
+st.logo(
+    str(DASHBOARD_ROOT / "assets" / "streamlit-logo.png"),
+    icon_image=str(DASHBOARD_ROOT / "assets" / "streamlit-mark.png"),
+    size="large",
+)
 inject_style()
 
 st.title("Freedom in the World — Interactive Dashboard")
